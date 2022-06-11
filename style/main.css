@@ -46,13 +46,15 @@ header nav a:hover {
 .filme-principal {
   font-size: 16px;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%),
-    url('/img/strange_things.jpg');
+    url('https://www.themoviedb.org/t/p/original/56v2KjBlU4XaOv9rVYEQypROD7P.jpg');
 
-  height: 450px;
+  height: 50vw;
+
   background-size: cover;
-  width: 300px;
   position: relative;
-  width: 100%;
+  max-width: 100%;
+  max-width: auto;
+  max-height: auto;
 
   display: flex;
   flex-direction: column;
